@@ -1,0 +1,58 @@
+@import "../../responsive.scss";
+
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left{
+        flex: 3;
+        gap: 10px;
+        margin-top: 25px;
+        & a{
+            transition: all 0.1s ease;
+            @include sm{
+                display: none;
+            }
+            &:hover{
+                color: var(--primary-color);
+            }
+        }
+        .logo{
+            font-family: "poppins-extrabold";
+            font-size: 29px;
+            display: flex;
+            gap: 10px;
+            width: fit-content;
+            img{
+                width: 33px;
+                height: 33px;
+            }
+            span{
+                @include md{
+                    display: none;
+                }
+                @include sm{
+                    display: initial;
+                }
+            }
+        }
+    }
+    .navitems{
+        margin-top: 10px;
+        display: flex;
+        gap: 30px;
+        & a:hover{
+            cursor: pointer;
+            font-family: "poppins-light";
+        }
+    }
+    .right{
+        flex: 2;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 30px;
+    }
+}
