@@ -1,0 +1,55 @@
+.HomePage{
+    display: flex;
+    height: 100%;
+
+    .textcontainer{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex:3;
+        .wrapper{
+            padding-right: 100px;
+        }
+        .extratexts{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 60px;
+            p{
+                color: var(--neutral-color);
+                font-family: "poppins-extralight";
+                font-size: 25px;
+            }
+        }
+    }
+    .imagecontainer{
+        flex:2;
+        background-color: var(--background-color);
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 100%;
+        }
+    }
+    .findyourtext{
+        margin: 0;
+        padding: 0;
+        color: var(--primary-color);
+        font-family: "poppins-regular";
+        font-size: 40px;
+    }
+    .spacetext{
+        line-height: 0.8;
+        margin: 0;
+        padding: 0;
+        font-family: "poppins-black";
+        font-size: 96px;
+    }
+    .descriptiontext{
+        margin-top: 10px;
+        font-family: "poppins-light";
+        font-size: 18px;
+        color: var(--neutral-color);
+    }
+}
