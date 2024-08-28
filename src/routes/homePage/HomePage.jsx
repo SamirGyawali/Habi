@@ -6,7 +6,7 @@ function HomePage() {
   return (
     <div className="HomePage">
       <div className="textcontainer">
-        <div className="titletwrapper">
+        <div className="titlewrapper">
           <p className="findyourtext">Find your</p>
           <h1 className="spacetext">SPACE</h1>
           <div className="wrapper">
@@ -17,14 +17,14 @@ function HomePage() {
           </div>
         </div>
         <Searchbar />
-        <div className="extratexts">
+        {/* <div className="extratexts">
           <p>100+ Users</p>
           <p>Trusted</p>
           <p>Free</p>
-        </div>
+        </div> */}
       </div>
       <div className="imagecontainer">
-        <img src="/home.png" alt="" />
+        <img src="/chair.png" alt="" />
       </div>
     </div>
   );
