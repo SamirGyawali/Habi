@@ -1,5 +1,6 @@
-import React from 'react'
-import './card.scss'
+import React from 'react';
+import { Link } from "react-router-dom";
+import './card.scss';
 
 const Card = (item) => {
   return (
