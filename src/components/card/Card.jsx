@@ -9,23 +9,25 @@ const Card = ({item}) => {
         <img src={item.img} alt="" />
       </Link>
       <div className="textContainer">
-        <h2 className='title'>
-          <Link to={`/${item.id}`}>{item.title}</Link>
-        </h2>
-        <p className="address">
-          <img src="/pin.png" alt="" />
-          <span>{item.address}</span>
-        </p>
+        <div>
+          <h2 className='title'>
+            <Link to={`/${item.id}`}>{item.title}</Link>
+          </h2>
+          <p className="address">
+            <img src="/pin.png" alt="" />
+            <span>{item.address}</span>
+          </p>
+        </div>
         <p className='price'>NRP {item.price}</p>
         <div className="bottom">
           <div className="features">
             <div className="feature">
-              <img src="/bed.png" alt="" />
+              <img src="/bed1.png" alt="" />
               <span>{item.bedroom} bedroom</span>
             </div>
             <div className="feature">
-              <img src="/bath.png" alt="" />
-              <span>{item.bathroom} bathroom</span>
+              <img src="/dish.png" alt="" />
+              <span>{item.bathroom} kitchen</span>
             </div>
           </div>
           <div className="icons">

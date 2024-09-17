@@ -1,6 +1,6 @@
 :root{
     --primary-color: #00A3FF;
-    --secondary-color: #00000000;
+    --dark-color: #051d45;
     --neutral-color: #737373;
     --background-color: #B9E5FE;
 }
@@ -17,6 +17,7 @@ a{
 }
 
 body{
+    background-color: #fcfcfa;
     overflow:hidden;
 }
 
