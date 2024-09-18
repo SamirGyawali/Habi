@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './card.scss';
 
+// bedroom = water, bathroom = waste
+
 const Card = ({item}) => {
   return (
     <div className='card'>
@@ -22,12 +24,16 @@ const Card = ({item}) => {
         <div className="bottom">
           <div className="features">
             <div className="feature">
-              <img src="/bed1.png" alt="" />
-              <span>{item.bedroom} bedroom</span>
+              <img src="/water1.png" alt="" />
+              <span>{item.water}</span>
             </div>
             <div className="feature">
-              <img src="/dish.png" alt="" />
-              <span>{item.bathroom} kitchen</span>
+              <img src="/waste1.png" alt="" />
+              <span>{item.waste}</span>
+            </div>
+            <div className="feature">
+              <img src="/power.png" alt="" />
+              <span>{item.power}</span>
             </div>
           </div>
           <div className="icons">

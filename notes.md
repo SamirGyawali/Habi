@@ -6,3 +6,4 @@
     1:22:24 designing filter sections and cards
     1:28:16 handling each items
     1:43:17 integrating map
+    1:48:34 making each single page
