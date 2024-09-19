@@ -3,15 +3,17 @@
 .searchbar{
     .type{
         button{
-            padding: 16px 36px;
-            border: 1px solid #999;
+            padding: 8px 0px;
+            padding-bottom: 4px;
+            margin: 10px 10px 10px 18px;
+            border: none;
             cursor: pointer;
             background-color: white;
             border-bottom: none;
-
             &.active{
-                background-color: var(--dark-color);
-                color: white;
+                // background-color: var(--dark-color);
+                // color: white;
+                border-bottom: var(--dark-color) 2px solid;
             }
 
             &:first-child{
@@ -28,18 +30,32 @@
         border: 1px solid #999;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         height: 64px;
         gap: 5px;
 
+        border-radius: 60px;
+        padding: 10px 20px;
+        width: 100%;
+        max-width: 550px;
+
         @include sm{
+            border: 1px solid #999;
+            align-items: baseline;
             flex-direction: column;
             border: none;
         }
         
         input{
             border: none;
-            padding: 0px 10px;
+            padding: 24px 20px;
             width: 200px;
+
+            flex: 1;
+            border: 0;
+            outline: none;
+            background: transparent;
+            font-size: 14px;
 
             @include lg{
                 padding: 0px 5px;
@@ -55,9 +71,14 @@
                 }
             }
             @include sm{
-                width: auto;
+                border: 1px solid #999;
+                &:hover{
+                    border: 1px solid var(--dark-color);
+                }
+                border-radius: 60px;
+                width: 70%;
                 &:nth-child(2), &:nth-child(3){
-                    width: auto;
+                    width: 70%;
                 }
                 padding: 20px;
             }
@@ -66,15 +87,23 @@
             border: none;
             cursor: pointer;
             flex: 1;
-            background-color: var(--primary-color);
+            background-color: transparent;
+
+            
+            width: 60px;
+            height: 60px;
 
             @include sm{
                 padding: 10px;
             }
 
             img{
-                width: 20px;
-                height: 20px;
+                width: 25px;
+                height: 25px;
+                transition: transform 0.3s ease-in-out;
+            }
+            &:hover{
+                transform: scale(1.3);
             }
         }
     }

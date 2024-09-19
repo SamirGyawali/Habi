@@ -2,11 +2,11 @@ import React from "react";
 import { useState } from "react";
 import "./Searchbar.scss";
 
-const types = ["Buy", "Rent"];
+const types = ["Rent", "Buy"];
 
 function Searchbar() {
   const [query, setQuery] = useState({
-    type: "Buy",
+    type: "Rent",
     location: "",
     minPrice: 0,
     maxPrice: 0,
@@ -43,7 +43,7 @@ function Searchbar() {
           max={99999}
           placeholder="Max Price"
         />
-        <button>
+        <button type="submit">
           <img src="/search.png" alt="" />
         </button>
       </form>
