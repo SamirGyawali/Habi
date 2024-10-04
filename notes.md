@@ -8,3 +8,5 @@
     1:43:17 integrating map
     1:48:34 making each single page
     1:58:30 designing single page
+    2:03:36
+    2:12:27
