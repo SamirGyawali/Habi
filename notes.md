@@ -10,3 +10,5 @@
     1:58:30 designing single page
     2:03:36
     2:12:27
+    2:18:36
+    2:28:43 slider responsive
