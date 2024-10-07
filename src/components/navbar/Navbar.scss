@@ -55,14 +55,56 @@ nav{
         align-items: center;
         justify-content: flex-end;
         gap: 30px;
-        // background-color: #00A3FF;
         height: 100%;
         @include md{
             background-color: transparent;
-        };
-        .a{
+        }
+        // a{
+        //     padding: 12px 24px;
+        //     margin: 20px;
+        // }
+        .user{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            .profile{
+                margin: 0;
+                padding: 8px;
+                font-family: "poppins-medium";
+                position: relative;
+
+                .notification{
+                    font-size: 10px;
+                    position: absolute;
+                    top: -1px;
+                    right: -0px;
+                    background-color: var(--primary-color);
+                    color: white;
+                    border-radius: 50%;
+                    width: 15px;
+                    height: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+        .profileimg{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1.2px solid var(--primary-color);
+            &:active{
+                padding: 1.5px;
+            }
+        }
+
+        .profile{
             padding: 12px 24px;
-            margin: 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 15px;
         }
     }
     .menuicon{
