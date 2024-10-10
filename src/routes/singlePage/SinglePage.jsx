@@ -100,11 +100,11 @@ const SinglePage = () => {
           </div>
           <div className="buttons">
             <button>
-              <img src="/chat.png" alt="" />
+              <img src="/chat1.png" alt="" />
               Send a Message
             </button>
             <button>
-              <img src="/save.png" alt="" />
+              <img src="/save1.png" alt="" />
               Save the Place
             </button>
           </div>
