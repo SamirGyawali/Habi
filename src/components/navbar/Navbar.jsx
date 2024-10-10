@@ -12,10 +12,10 @@ function Navbar() {
           <span>Habi</span>
         </a>
         <div className="navitems">
-          <a href="/">Home</a>
-          <a href="">About</a>
-          <a href="">Contact</a>
-          <a href="">Agents</a>
+          <a href="/" className="navlink">Home</a>
+          <a href="" className="navlink">About</a>
+          <a href="" className="navlink">Contact</a>
+          <a href="" className="navlink">Agents</a>
         </div>
       </div>
       <div className="right">
@@ -31,8 +31,8 @@ function Navbar() {
           </div>
         ) : (
           <>
-            <a href="/">Sign in</a>
-            <a href="/" className="register">
+            <a href="/" className="navlink">Sign in</a>
+            <a href="/" className="navlink">
               Sign up
             </a>
           </>

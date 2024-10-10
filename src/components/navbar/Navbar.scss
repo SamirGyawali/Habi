@@ -6,14 +6,15 @@ nav{
     justify-content: space-between;
     align-items: center;
 
-    a{
+    .navlink{
         transition: all 0.1s ease;
         @include sm{
             display: none;
         }
-        &:hover{
-            color: var(--primary-color);
-        }
+    }
+    span:hover{
+        cursor: pointer;
+        color: var(--primary-color);
     }
     .left{
         flex: 3;
@@ -44,9 +45,8 @@ nav{
         margin-top: 10px;
         display: flex;
         gap: 30px;
-        & a:hover{
-            cursor: pointer;
-            font-family: "poppins-light";
+        .navlink:hover{
+            color: var(--primary-color);
         }
     }
     .right{
@@ -67,6 +67,7 @@ nav{
             display: flex;
             align-items: center;
             cursor: pointer;
+            margin: 10px;
             .profile{
                 margin: 0;
                 padding: 8px;
