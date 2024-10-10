@@ -1,0 +1,60 @@
+.profilePage{
+    display: flex;
+    height: 100%;
+
+    .details{
+        flex: 3;
+        overflow-y: scroll;
+
+        .wrapper{
+            padding-right: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h1{
+                font-family: "poppins-medium";
+            }
+            button{
+                padding: 12px 24px;
+                background-color: var(--primary-color);
+                cursor: pointer;
+                border: none;
+            }
+        }
+
+        .info{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            span{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+
+            img{
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+    }
+    .chatContainer{
+        flex: 2;
+        background-color: #f3f7fc;
+        height: 100%;
+
+        .wrapper{
+            padding: 0px 20px;
+        }
+    }
+}

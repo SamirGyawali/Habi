@@ -13,3 +13,4 @@
     2:18:36
     2:28:43 slider responsive
     2:35:36 (user profile pic problem for small screens) fixed
+    2:45:00 adding chat component in the user profile page
