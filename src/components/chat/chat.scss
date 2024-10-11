@@ -9,6 +9,23 @@
         flex-direction: column;
         gap: 10px;
         overflow-y: scroll;
+        &::-webkit-scrollbar {
+            background-color: transparent;
+            border-radius: 50%;
+            width: 7px;
+        }
+    
+        &::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            background-color: rgb(189, 189, 189);
+            border-radius: 10px;
+            border: 1px solid #f3f7fc;
+            opacity: 0;
+            transition: opacity 0.05s ease;
+        }
 
         h2{
             font-family: "poppins-thin";
@@ -31,7 +48,7 @@
             }
 
             span{
-                font-family: "poppins-bold";
+                font-family: "poppins-medium";
             }
         }
     }
@@ -74,6 +91,23 @@
         padding: 20px;
         display: flex;
         flex-direction: column;
+        &::-webkit-scrollbar {
+            background-color: transparent;
+            border-radius: 50%;
+            width: 3px;
+        }
+    
+        &::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            background-color: rgb(189, 189, 189);
+            border-radius: 10px;
+            border: 1px solid #f3f7fc;
+            opacity: 0;
+            transition: opacity 0.05s ease;
+        }
 
         .chatMessage{
             width: 50%;

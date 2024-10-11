@@ -8,22 +8,34 @@ const ProfilePage = () => {
         <div className="profilePage">
             <div className="details">
                 <div className="wrapper">
-                    <div className="title">
-                        <h1>User Information</h1>
-                        <button>Update Profile</button>
-                    </div>
                     <div className="info">
-                        <span>Avatar: <img src="/user.jpg" alt="" /></span>
-                        <span>Username: <b>Kio San</b></span>
-                        <span>E-mail: <b>kiooosan@gmail.com</b></span>
+                            <div className='first'>
+                                <img src="/user.jpg" alt="" />
+                                <div className='afirst'>
+                                    <span className='title'>Username</span>
+                                    <span className='value'>Kio San</span>
+                                    <span className='title'>Address</span>
+                                    <span className='value'>Samakhushi Kathmandu</span>
+
+                                </div>
+                            </div>
+                            <div>
+                                <span className='title'>E-mail</span>
+                                <span className='value'>kiosan@gmail.com</span>
+                                <span className='title'>Phone no</span>
+                                <span className='value'>9800265875</span>
+                            </div>
+                    </div>
+                    <div className="buttons">
+                        <button>Update Profile</button>
+                        <button>Create New Post</button>
                     </div>
                     <div className="title">
-                        <h1>My List</h1>
-                        <button>Create New Post</button>
+                        <h4>My Posts</h4>
                     </div>
                     <List />
                     <div className="title">
-                        <h1>Saved List</h1>
+                        <h4>Saved List &#129505;</h4>
                     </div>
                     <List />
                 </div>

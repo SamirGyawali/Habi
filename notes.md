@@ -15,3 +15,4 @@
     2:35:36 (user profile pic problem for small screens) fixed
     2:45:00 adding chat component in the user profile page
     2:59:00 chat section
+    completed

@@ -15,47 +15,47 @@ const Chat = () => {
         </div>
         <div className="message">
           <img src="/user.jpg" alt="" />
-          <span>Kio San</span>
+          <span>Ninja Hattori</span>
           <p>kio rock and roll.....</p>
         </div>
         <div className="message">
           <img src="/user.jpg" alt="" />
-          <span>Kio San</span>
+          <span>Kenechi mitsuwa</span>
           <p>kio rock and roll.....</p>
         </div>
         <div className="message">
           <img src="/user.jpg" alt="" />
-          <span>Kio San</span>
+          <span>Taki kun</span>
           <p>kio rock and roll.....</p>
         </div>
         <div className="message">
           <img src="/user.jpg" alt="" />
-          <span>Kio San</span>
+          <span>Hotaro Oreki</span>
           <p>kio rock and roll.....</p>
         </div>
         <div className="message">
           <img src="/user.jpg" alt="" />
-          <span>Kio San</span>
+          <span>Amara ninja</span>
           <p>kio rock and roll.....</p>
         </div>
         <div className="message">
           <img src="/user.jpg" alt="" />
-          <span>Kio San</span>
+          <span>Mitsuwa Mimazu</span>
           <p>kio rock and roll.....</p>
         </div>
         <div className="message">
           <img src="/user.jpg" alt="" />
-          <span>Kio San</span>
+          <span>Zero Two</span>
           <p>kio rock and roll.....</p>
         </div>
         <div className="message">
           <img src="/user.jpg" alt="" />
-          <span>Kio San</span>
+          <span>Todoka kun</span>
           <p>kio rock and roll.....</p>
         </div>
         <div className="message">
           <img src="/user.jpg" alt="" />
-          <span>Kio San</span>
+          <span>Hinata san</span>
           <p>kio rock and roll.....</p>
         </div>
       </div>
