@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import './card.scss';
 
 // bedroom = water, bathroom = waste
 
 const Card = ({item}) => {
+  const [isImageClicked, setIsImageClicked] = useState(false);
+  const handleImageClick = ()=>{
+    setIsImageClicked(!isImageClicked)
+  }
   return (
     <div className='card'>
       <Link to={`/${item.id}`} className="imageContainer">
@@ -37,8 +41,8 @@ const Card = ({item}) => {
             </div>
           </div>
           <div className="icons">
-            <div className="icon">
-              <img src="/save1.png" alt="" />
+            <div className="icon" onClick={handleImageClick}>
+              <img src={isImageClicked ? "/redHeart.png" : "/save1.png"} alt="" />
             </div>
             <div className="icon">
               <img src="/chat1.png" alt="" />

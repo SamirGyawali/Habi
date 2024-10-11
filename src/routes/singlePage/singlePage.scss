@@ -14,6 +14,23 @@
     flex: 3;
     height: 100%;
     overflow-y: scroll;
+    &::-webkit-scrollbar {
+      background-color: transparent;
+      border-radius: 50%;
+      width: 7px;
+  }
+
+  &::-webkit-scrollbar-track {
+      background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+      background-color: rgb(189, 189, 189);
+      border-radius: 10px;
+      border: 1px solid #f3f7fc;
+      opacity: 0;
+      transition: opacity 0.05s ease;
+  }
 
     @include md{
         flex: none;
@@ -56,10 +73,10 @@
           .user {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
-            gap: 20px;
-            padding: 0px 50px;
+            gap: 8px;
+            padding: 0px 40px;
             font-family: "poppins-medium";
             img {
               width: 50px;
@@ -82,6 +99,23 @@
     border-radius: 20px;
     height: 100%;
     overflow-y: auto;
+    &::-webkit-scrollbar {
+      background-color: transparent;
+      border-radius: 50%;
+      width: 7px;
+  }
+
+  &::-webkit-scrollbar-track {
+      background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+      background-color: rgb(189, 189, 189);
+      border-radius: 10px;
+      border: 1px solid #f3f7fc;
+      opacity: 0;
+      transition: opacity 0.05s ease;
+  }
 
     @include md{
         flex: none;
